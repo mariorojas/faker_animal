@@ -13,6 +13,7 @@ class AnimalProvider(BaseProvider):
     >>> from faker_animal import AnimalProvider
     >>> fake = Faker()
     >>> fake.add_provider(AnimalProvider)
+    >>> fake.animal()
     """
 
     def animal(self) -> str:
